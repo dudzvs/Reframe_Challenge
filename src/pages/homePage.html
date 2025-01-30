@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title></title>
+		<script type="module" src="../js/main.js" defer></script>
+	</head>
+	<body class="bg-white d-flex justify-content-center">
+		<div
+			class="d-flex flex-column">
+			<div class="min-vw-100 position-relative">
+				<nav class="w-100 py-2 px-3 d-flex justify-content-between align-items-center" style="background-color: red">
+					<button id="menuBtn" class="bg-transparent border-0">
+						<img src="/icons/menuNavIcon.svg" alt="">
+					</button>
+					<h2 class="mt-2 fw-bold text-white fs-4">Guia Digital Condomínio</h2>
+				</nav>
+				<div class="w-100 d-flex align-items-center px-4 rounded-bottom-4 bg-white h-75">
+					<img width="29" height="29"  src="/images/handImg.png" alt="">
+					<h3 class="mt-2 mx-3 fw-bold">Olá, Consultor!</h3>
+				</div>
+				<div id="menu" class="position-absolute gap-4 top-50 p-3 d-flex flex-column custom-shadow bg-white rounded-end-4 w-75" style="height: 75vh">
+					<div id="closeMenuBtn" class="align-self-end">
+						<svg width="21" style="cursor: pointer" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g id="Group 735">
+								<path id="Line 12" d="M1 1L20 20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+								<path id="Line 13" d="M1 20.4141L20 1.41406" stroke="black" stroke-width="2" stroke-linecap="round"/>
+							</g>
+						</svg>
+					</div>
+					<h2 class="fw-bold" style="font-size: 32px">Índice</h2>
+					<a class="custom-link mb-2" href="./homePage.html">Home</a>
+					<a id="tradeLink" class="custom-link mb-2" href="#">Trade</a>
+					<a class="custom-link mb-2" href="#">Comunicação</a>
+					<a class="custom-link mb-2" href="#">Ferramentas</a>
+					<a class="custom-link mb-2" href="#">Sistemas</a>
+					<a class="custom-link mb-2" href="#">Operação</a>
+				</div>
+			</div>
+			<div class="bg-img-home d-flex flex-column justify-content-end text-start text-white mb-1">
+				<div class="vw-100 px-3 py-1" style="margin-top: 14em; background: linear-gradient(to top, #1D1515 45.87%, rgba(218, 41, 28, 0.00) 84.13%);">
+					<p class="fs-1 fw-bold mt-5 mb-0">Este guia foi desenvolvido para ajudá-lo em suas atividades diárias, buscando promover: </p>
+					<div class="mt-3 d-flex justify-content-center align-items-center gap-4 pb-2">
+						<span class="fs-6">Excelência</span>
+						<span class="fs-6 text-nowrap">Atendimento ágil</span>
+						<span class="fs-6">Eficiência nos procedimentos</span>
+					</div>
+				</div>
+			</div>
+			<h2 class="fw-bold text-center mt-4 fs-4"><span style="color: red">Clique e confira </span>agora todos<br> os itens que abordaremos<br> nesse Guia para te ajudar:</h2>
+
+			<div class="d-flex flex-column justify-content-center align-items-center gap-4 mt-4 mb-5">
+				<button id="tradeBtn" class="intro-button custom-buttons-icon-bg text-start" style="width: 90%; padding: 12px 5em; background-image: url('/icons/tradeIcon.svg')">Trade</button>
+				<button class="intro-button custom-buttons-icon-bg text-start" style="width: 90%; padding: 12px 5em; background-image: url('/icons/commnIcon.svg')">Comunicação</button>
+				<button class="intro-button custom-buttons-icon-bg text-start" style="width: 90%; padding: 12px 5em; background-image: url('/icons/systemIcon.svg')">Sistemas</button>
+				<button class="intro-button custom-buttons-icon-bg text-start" style="width: 90%; padding: 12px 5em; background-image: url('/icons/operationIcon.svg')">Operação</button>
+				<button class="intro-button custom-buttons-icon-bg text-start" style="width: 90%; padding: 12px 5em; background-image: url('/icons/operationIcon2.svg')">Operação</button>
+			</div>
+
+			<div class="position-relative rounded-4 d-flex flex-column align-self-center p-3 text-center mt-5 mb-5" style="background-color: #FFE6C3; width: 90%">
+				<div class="position-absolute custom-position bg-white rounded-circle d-flex align-items-center justify-content-center p-3 py-2">
+					<img src="/images/bell.png" alt="">
+				</div>
+				<h3 class="fw-bold mt-5">Lembrete:</h3>
+				<p>Sempre que surgirem dúvidas durante suas tarefas, consulte este guia, pois ele aborda os principais temas que irão orientá-lo em sua rotina diária.</p>
+			</div>
+		</div>
+	</body>
+</html>

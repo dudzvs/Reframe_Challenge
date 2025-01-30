@@ -1,0 +1,139 @@
+@import "bootstrap/scss/bootstrap";
+.custom-bg {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 432px;
+  background-repeat: no-repeat;
+}
+
+.bg-img-initial-page {
+  background-image: url("/images/banner1.png");
+}
+
+.bg-intro-img-page1 {
+  background-image: url("/images/banner2.png"), url("/images/bgImg.png");
+  background-size: auto, cover;
+  background-position: center top 50px, center;
+}
+
+.bg-intro-img-page2 {
+  background-image: url("/images/banner3.png"), url("/images/bgImg.png");
+  background-size: auto, cover;
+  background-position: center top 50px, center;
+}
+
+.bg-intro-img-page3 {
+  background-image: url("/images/banner4.png"), url("/images/bgImg.png");
+  background-size: auto, cover;
+  background-position: center top 50px, center;
+}
+
+.bg-img-home {
+  background-image:  url("/images/bgImg.png") ,url("/images/banner5.png");
+  background-size: cover, cover;
+  background-position:top, center bottom 55px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.bg-img-trade {
+  background-image:
+          linear-gradient(to right, rgba(29, 21, 21, 0.9) 37.37%, rgba(218, 41, 28, 0.00) 84.13%),
+          url("/images/bgImg.png"),
+          url("/images/banner6.png");
+  background-size: cover, cover, cover;
+  background-position: top, center, center;
+  background-repeat: no-repeat;
+}
+
+.custom-buttons-icon-bg {
+  background-repeat: no-repeat;
+  background-position: left 25px center;
+}
+
+.custom-shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.custom-position {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -2.5em;
+}
+
+.h-large {
+  font-size: 3.3rem;
+  color: black;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.h-medium {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.intro-button {
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border: 0;
+  width: 80%;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.intro-button:hover {
+  opacity: 0.8;
+}
+
+
+span {
+  transition: background-color 0.3s ease-in-out;
+}
+
+#menu {
+  visibility: hidden;
+  z-index: 9999;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.carousel-item {
+  height: 420px;
+  padding: 20px;
+}
+
+.carousel-card {
+  max-width: 253px;
+  border-radius: 20px;
+  height: 100%;
+  padding: 25px;
+  margin: 0 auto;
+  background-color: #DA291C;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.custom-controls button {
+  background-color: #FFEDCB;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

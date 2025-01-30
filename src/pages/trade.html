@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<script type="module" src="../js/main.js" defer></script>
+	</head>
+	<body class="d-flex justify-content-center align-items-center">
+		<div class="d-flex flex-column">
+			<div class="min-vw-100 position-relative">
+				<nav class="w-100 py-2 px-3 d-flex justify-content-between align-items-center" style="background-color: red">
+					<button id="menuBtn" class="bg-transparent border-0">
+						<img src="/icons/menuNavIcon.svg" alt="">
+					</button>
+					<h2 class="mt-2 fw-bold text-white fs-4">Guia Digital Condomínio</h2>
+				</nav>
+
+				<div id="menu" class="position-absolute gap-4 top-75 p-3 d-flex flex-column custom-shadow bg-white rounded-end-4 w-75" style="height: 75vh">
+					<div id="closeMenuBtn" class="align-self-end">
+						<svg width="21" style="cursor: pointer" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g id="Group 735">
+								<path id="Line 12" d="M1 1L20 20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+								<path id="Line 13" d="M1 20.4141L20 1.41406" stroke="black" stroke-width="2" stroke-linecap="round"/>
+							</g>
+						</svg>
+					</div>
+					<h2 class="fw-bold" style="font-size: 32px">Índice</h2>
+					<a id="homeLink" class="custom-link mb-2" href="./homePage.html">Home</a>
+					<a id="tradeLink" class="custom-link mb-2" href="#">Trade</a>
+					<a class="custom-link mb-2" href="#">Comunicação</a>
+					<a class="custom-link mb-2" href="#">Ferramentas</a>
+					<a class="custom-link mb-2" href="#">Sistemas</a>
+					<a class="custom-link mb-2" href="#">Operação</a>
+				</div>
+			</div>
+
+			<div class="bg-img-trade d-flex flex-column p-3 text-white">
+				<div class="d-flex gap-1 justify-content-start mb-5">
+					<div class=" d-flex align-items-center justify-content-center p-4" style="background-image: url('/images/polygon.png'); background-repeat: no-repeat; background-size: 70%; background-position: center;">
+						<img src="/icons/tradeIcon.svg" alt="" width="30" height="33" style="object-fit: contain;">
+					</div>
+					<h2 class="fs-2 fw-bold mt-4">Minha jornada:<br><span class="fs-6">Apresentação Pessoal<br> e Rotina</span></h2>
+				</div>
+				<h2 class="fw-bold">Abordagem</h2>
+				<p class="fw-medium mb-3">
+					O atendimento está na linha de frente e é responsável pelo contato direto com o nosso cliente. Para transmitir confiabilidade, segurança, bons serviços e cuidado, uma boa apresentação pessoal é essencial.
+				</p>
+			</div>
+
+			<div class="bg-white rounded-4 mx-4 px-3 py-2" style="margin-top: -1em">
+				<p class="fw-bold text-center mb-0 text-black">Veja a seguir algumas características<br> de uma boa apresentação pessoal:</p>
+			</div>
+			<div class="d-flex justify-content-center">
+				<div id="presentationCarousel" style="width: 300px" class="carousel slide position-relative my-4 mb-5" data-bs-ride="carousel">
+					<div class="carousel-inner text-white" style="line-height: 16px">
+						<div class="carousel-item active">
+							<div class="carousel-card text-start d-flex flex-column align-items-center">
+								<h3 class="text-center fw-bold mb-4">Higiene Pessoal</h3>
+								<div class="mb-4 bg-white rounded-circle p-2">
+									<img src="/icons/starsIcon.svg" alt="">
+								</div>
+								<p>A boa higiene pessoal é fundamental para causar uma boa impressão.</p>
+								<p>Quando nos colocamos no lugar do cliente, percebemos o quanto nossa imagem influencia na decisão de confiar em nós.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<div class="carousel-card text-start d-flex flex-column align-items-center">
+								<h3 class="text-center fw-bold mb-4">Uniformização</h3>
+								<div class="mb-4 bg-white rounded-circle p-3">
+									<img src="/icons/shirtIcon.svg" alt="">
+								</div>
+								<p>A uniformização representa a nossa marca de maneira consistente e reconhecível.</p>
+								<p>O cuidado com o uniforme demonstra nosso comprometimento e atenção aos detalhes.</p>
+								<p>Isso transmite confiança aos nossos clientes.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<div class="carousel-card text-start d-flex flex-column align-items-center">
+								<h3 class="text-center fw-bold mb-4">Uso do Crachá</h3>
+								<div class="mb-4 bg-white rounded-circle p-3">
+									<img src="/icons/contactIcon.svg" alt="">
+								</div>
+								<p>O crachá é uma peça essencial na nossa apresentação pessoal.</p>
+								<p>Ele identifica quem somos e reforça nossa credibilidade e profissionalismo.</p>
+								<p>É imprescindível que todos o utilizem de forma visível e adequada durante o atendimento.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="custom-controls position-absolute" style="right: 30px; bottom: -20px">
+						<button data-bs-target="#presentationCarousel" data-bs-slide="prev">
+						<span>
+							<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7 1L1 7L7 13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</span>
+						</button>
+						<button data-bs-target="#presentationCarousel" data-bs-slide="next">
+						<span>
+							<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 13L7 7L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</span>
+						</button>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="d-flex flex-column px-4 fw-bold mb-5">
+				<div class="d-flex align-items-center justify-content-center gap-3 mb-4">
+					<img src="/images/lamp.png" alt="">
+					<h2 class="mb-0 fw-bold">Dicas para uma Abordagem de Sucesso:</h2>
+				</div>
+				<div class="mb-4">
+					<ul>
+						<li>Tenha uma apresentação impecável.</li>
+						<li>Evite comentários ofensivos ou debochados sobre os clientes.</li>
+						<li>Discrição é fundamental para construir uma relação de confiança e respeito.</li>
+					</ul>
+				</div>
+				<h2 class="text-danger fw-bold">E lembre-se, seja cortês e gentil acima de tudo.</h2>
+			</div>
+		</div>
+	</body>
+</html>
