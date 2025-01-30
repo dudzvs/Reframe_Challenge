@@ -9,6 +9,7 @@ export default {
 				index: resolve(__dirname, "src/index.html"),
 				introPage: resolve(__dirname, "src/pages/introductionPage.html"),
 				homePage: resolve(__dirname, "src/pages/homePage.html"),
+				tradePage: resolve(__dirname, "src/pages/trade.html"),
 			},
 		},
 	},
