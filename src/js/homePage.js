@@ -16,8 +16,8 @@
 		});
 
 		if (tradeBtn) {
-			tradeBtn.onclick = () => (window.location.href = "./trade.html");
+			tradeBtn.onclick = () => (window.location.href = "pages/trade.html");
 		}
-		tradeLink.onclick = () => (window.location.href = "./trade.html");
+		tradeLink.onclick = () => (window.location.href = "pages/trade.html");
 	}
 })();

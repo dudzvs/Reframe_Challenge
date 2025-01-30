@@ -35,7 +35,7 @@
 
 			if (currentSpan === spans.length - 1) {
 				nextBtn.textContent = "Vamos começar!";
-				nextBtn.onclick = () => (window.location.href = "./homePage.html");
+				nextBtn.onclick = () => (window.location.href = "pages/homePage.html");
 			}
 		});
 	}
